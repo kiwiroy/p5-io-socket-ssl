@@ -333,7 +333,7 @@ if ( $pid == 0 ) {
 	#diag($buf);
 	ok( "received client message" );
 
-	sleep(5);
+	sleep(10);
 	my $bytes_received = 10;
 
 	# read up to 30000 bytes from client, then close the socket
